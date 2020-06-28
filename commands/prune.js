@@ -1,6 +1,9 @@
 module.exports = {
   name: 'prune',
   description: 'Bulk deletes messages in a channel',
+  args: true,
+  guildOnly: true,
+  usage: '<number> (between 1 and 99)',
   execute(message, args) {
     if (!message.channel) return message.reply('soz this command works only in channels');
 
