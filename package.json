@@ -9,7 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.2.0",
-    "eslint": "^7.3.1"
+    "eslint": "^7.3.1",
+    "ffmpeg-static": "^4.2.5"
+  },
+  "devDependencies": {
+    "opusscript": "0.0.7"
   }
 }
