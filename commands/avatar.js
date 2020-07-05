@@ -1,5 +1,6 @@
 module.exports = {
   name: 'avatar',
+  aliases: ['icon', 'pfp'],
   description: 'Gets links for mentioned users\' avatars',
   execute(message, _args) {
     const channel = message.channel;
